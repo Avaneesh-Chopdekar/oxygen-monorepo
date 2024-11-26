@@ -70,3 +70,27 @@ This Turborepo has some additional tools already setup for you:
 - [ESLint](https://eslint.org/) for code linting
 - [Jest](https://jestjs.io) test runner for all things JavaScript
 - [Prettier](https://prettier.io) for code formatting
+
+### Commit Message Conventions
+
+```
+git commit -m "feat(apps/api): add a new feature"
+```
+
+> Make sure your commit message is meaningful and precise.
+
+#### Prefixes
+
+- `feat`: A new feature
+- `fix`: A bug fix
+- `docs`: Documentation only changes
+- `style`: Everything related to styling
+- `refactor`: A code change that neither fixes a bug nor adds a feature
+- `test`: Everything related to testing
+- `chore`: Updating build tasks, package manager configs etc
+
+#### Scopes
+
+- `root`: changes that affect the root of the monorepo
+- `apps/<app-name>`: changes to an app in apps directory
+- `packages/<package-name>`: changes to a package in packages directory
